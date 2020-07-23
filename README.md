@@ -35,3 +35,11 @@ Get data from Open Weather Map, http://openweathermap.org/
         width="900" height="500">
 	<p align="center">
 </p>
+
+## Result:
+The ocean has a certain degree of influence on meteorological data, and the influence of the ocean decays rapidly. The temperature has risen to a high level 60 to 70 kilometers away from the sea.
+<p align="center">
+	<img src="https://github.com/bochendong/Weather-data-analysis/raw/master/image/dis_temp.png"
+        width="900" height="500">
+	<p align="center">
+</p>
