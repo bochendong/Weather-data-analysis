@@ -38,7 +38,7 @@ Get data from Open Weather Map, http://openweathermap.org/
 
 ## Result:
 
-### temperature
+### Temperature
 
 The maximum temperature of the three cities closest to the sea is much lower than the three cities farthest from the sea, and the minimum temperature seems to be slightly different
 <p align="center">
@@ -53,7 +53,7 @@ The ocean has a certain degree of influence on meteorological data, and the infl
 	<p align="center">
 </p>
 
-### humidity
+### Humidity
 
 The humidity in coastal cities is greater than in inland cities
 <p align="center">
@@ -62,7 +62,7 @@ The humidity in coastal cities is greater than in inland cities
 	<p align="center">
 </p>
 
-### wind speed
+### Wind speed
 
 The relationship between wind speed and direction in a single city
 <p align="center">
