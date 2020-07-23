@@ -94,6 +94,6 @@ distance_temp()
 '''
 hist, bins = np.histogram(df_ravenna['wind_deg'], 8, [0, 360])
 # showRoseWind(hist, 'Ravenna', max(hist))
-
+'''
 showRoseWind(RoseWind_Speed(df_ravenna), 'Ravenna', max(hist))
 '''
