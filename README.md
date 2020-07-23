@@ -27,3 +27,7 @@ The city we choose are listed below:
 * Piacenza
 * Cesena
 * Faenza
+
+## Data collection：
+Get data from Open Weather Map, http://openweathermap.org/
+
