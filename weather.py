@@ -15,7 +15,82 @@ df_bologna = pd.read_csv('WeatherData/bologna_270615.csv')
 df_piacenza = pd.read_csv('WeatherData/piacenza_270615.csv')
 df_cesena = pd.read_csv('WeatherData/cesena_270615.csv')
 df_faenza = pd.read_csv('WeatherData/faenza_270615.csv')
+df_torino = pd.read_csv('WeatherData/torino_270615.csv')
 df_list = [df_ravenna, df_cesena, df_faenza, df_ferrara, df_bologna, df_mantova, df_piacenza, df_milano, df_asti]
+
+
+def Time_temp():
+    y1 = df_ravenna['temp']
+    x1 = df_ravenna['day']
+    y2 = df_faenza['temp']
+    x2 = df_faenza['day']
+    y3 = df_cesena['temp']
+    x3 = df_cesena['day']
+    y4 = df_milano['temp']
+    x4 = df_milano['day']
+    y5 = df_asti['temp']
+    x5 = df_asti['day']
+    y6 = df_torino['temp']
+    x6 = df_torino['day']
+
+    day_ravenna = [parser.parse(x) for x in x1]
+    day_faenza = [parser.parse(x) for x in x2]
+    day_cesena = [parser.parse(x) for x in x3]
+    day_milano = [parser.parse(x) for x in x4]
+    day_asti = [parser.parse(x) for x in x5]
+    day_torino = [parser.parse(x) for x in x6]
+
+    fig, ax = plt.subplots()
+    plt.xticks(rotation=70)
+
+    hours = mdates.DateFormatter('%H:%M')
+    ax.xaxis.set_major_formatter(hours)
+
+    ax.plot(day_ravenna, y1, 'r', day_faenza, y2, 'r', day_cesena, y3, 'r')
+    ax.plot(day_milano, y4, 'g', day_asti, y5, 'g', day_torino, y6, 'g')
+    ax.legend(['cities close to ocean',
+                'cities far from the sea'], loc="best")
+
+    plt.xlabel("Time")
+    plt.ylabel("Temp")
+    plt.show()
+
+def distance_hum():
+
+    y1 = df_ravenna['humidity']
+    x1 = df_ravenna['day']
+    y2 = df_faenza['humidity']
+    x2 = df_faenza['day']
+    y3 = df_cesena['humidity']
+    x3 = df_cesena['day']
+    y4 = df_milano['humidity']
+    x4 = df_milano['day']
+    y5 = df_asti['humidity']
+    x5 = df_asti['day']
+    y6 = df_torino['humidity']
+    x6 = df_torino['day']
+
+    fig, ax = plt.subplots()
+    plt.xticks(rotation=70)
+
+    day_ravenna = [parser.parse(x) for x in x1]
+    day_faenza = [parser.parse(x) for x in x2]
+    day_cesena = [parser.parse(x) for x in x3]
+    day_milano = [parser.parse(x) for x in x4]
+    day_asti = [parser.parse(x) for x in x5]
+    day_torino = [parser.parse(x) for x in x6]
+
+    hours = mdates.DateFormatter('%H:%M')
+    ax.xaxis.set_major_formatter(hours)
+
+    ax.plot(day_ravenna, y1, 'r', day_faenza, y2, 'r', day_cesena, y3, 'r')
+    ax.plot(day_milano, y4, 'g', day_asti, y5, 'g', day_torino, y6, 'g')
+    plt.xlabel("Time")
+    plt.ylabel("humidity")
+    plt.title("Humidity v.s. Time")
+    plt.show()
+
+
 
 def distance_temp():
     dist = []
@@ -75,7 +150,6 @@ def showRoseWind(values, city_name, max_value):
 
     # 设置极区图的标题
     plt.title(city_name, x=0.2, fontsize=20)
-
     plt.show()
 
 
@@ -90,10 +164,13 @@ def RoseWind_Speed(df_city):
     return np.array(tmp)
 
 
+distance_hum()
+
+'''
+Time_temp()
 distance_temp()
-'''
+distance_hum()
 hist, bins = np.histogram(df_ravenna['wind_deg'], 8, [0, 360])
-# showRoseWind(hist, 'Ravenna', max(hist))
-'''
+showRoseWind(hist, 'Ravenna', max(hist))
 showRoseWind(RoseWind_Speed(df_ravenna), 'Ravenna', max(hist))
 '''
