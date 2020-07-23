@@ -40,18 +40,18 @@ Get data from Open Weather Map, http://openweathermap.org/
 The ocean has a certain degree of influence on meteorological data, and the influence of the ocean decays rapidly. The temperature has risen to a high level 60 to 70 kilometers away from the sea.
 <p align="center">
 	<img src="https://github.com/bochendong/Weather-data-analysis/raw/master/image/dis_temp.png"
-        width="900" height="500">
+        width="700" height="500">
 	<p align="center">
 </p>
 The relationship between wind speed and direction in a single city
 <p align="center">
 	<img src="https://github.com/bochendong/Weather-data-analysis/raw/master/image/wind1.png"
-        width="900" height="500">
+        width="500" height="500">
 	<p align="center">
 </p>
 Calculate the distribution of mean wind speed
 <p align="center">
 	<img src="https://github.com/bochendong/Weather-data-analysis/raw/master/image/wind2.png"
-        width="900" height="500">
+        width="500" height="500">
 	<p align="center">
 </p>
