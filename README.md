@@ -6,14 +6,14 @@ The area of the Po River Basin in Italy is very suitable for studying the impact
 
 <p align="center">
 	<img src="https://github.com/bochendong/Weather-data-analysis/raw/master/image/map.png"
-        width="800" height="600">
+        width="900" height="500">
 	<p align="center">
 </p>
 
 We selected 9 cities. Then, their weather data will be analyzed. Among them, 4 cities are within 100 kilometers from the sea, and the remaining 5 are 100-400 kilometers from the sea.
 <p align="center">
 	<img src="https://github.com/bochendong/Weather-data-analysis/raw/master/image/map2.png"
-        width="800" height="600">
+        width="900" height="500">
 	<p align="center">
 </p>
 
