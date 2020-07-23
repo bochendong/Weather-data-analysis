@@ -41,12 +41,14 @@ Get data from Open Weather Map, http://openweathermap.org/
 ### Temperature
 
 The maximum temperature of the three cities closest to the sea is much lower than the three cities farthest from the sea, and the minimum temperature seems to be slightly different
+
+The ocean has a certain degree of influence on meteorological data, and the influence of the ocean decays rapidly. The temperature has risen to a high level 60 to 70 kilometers away from the sea.
+
 <p align="center">
 	<img src="https://github.com/bochendong/Weather-data-analysis/raw/master/image/time.png"
         width="900" height="500">
 	<p align="center">
 </p>
-The ocean has a certain degree of influence on meteorological data, and the influence of the ocean decays rapidly. The temperature has risen to a high level 60 to 70 kilometers away from the sea.
 <p align="center">
 	<img src="https://github.com/bochendong/Weather-data-analysis/raw/master/image/dis_temp.png"
         width="1200" height="500">
