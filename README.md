@@ -1,4 +1,4 @@
-### Weather-data-analysis
+# Weather-data-analysis
 This project will analyze and visualize the meteorological data of the northern coast of Italy. During the experiment, we will first use the matplotlib library in Python to graph the data, and then call the SVM library in the scikit-learn library to perform regression analysis on the data, and finally draw our conclusions with the support of graph analysis.
 
 ## Research System: Adriatic Sea and Po River Basin
@@ -6,7 +6,24 @@ The area of the Po River Basin in Italy is very suitable for studying the impact
 
 <p align="center">
 	<img src="https://github.com/bochendong/Weather-data-analysis/raw/master/image/map.png"
-        width="500" height="600">
+        width="800" height="600">
 	<p align="center">
 </p>
 
+We selected 9 cities. Then, their weather data will be analyzed. Among them, 4 cities are within 100 kilometers from the sea, and the remaining 5 are 100-400 kilometers from the sea.
+<p align="center">
+	<img src="https://github.com/bochendong/Weather-data-analysis/raw/master/image/map2.png"
+        width="800" height="600">
+	<p align="center">
+</p>
+
+The city we choose are listed below:
+* Ferrara
+* Mantova
+* Milano
+* Asti
+* Ravenna
+* Bologna
+* Piacenza
+* Cesena
+* Faenza
