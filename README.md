@@ -43,3 +43,15 @@ The ocean has a certain degree of influence on meteorological data, and the infl
         width="900" height="500">
 	<p align="center">
 </p>
+The relationship between wind speed and direction in a single city
+<p align="center">
+	<img src="https://github.com/bochendong/Weather-data-analysis/raw/master/image/wind1.png"
+        width="900" height="500">
+	<p align="center">
+</p>
+Calculate the distribution of mean wind speed
+<p align="center">
+	<img src="https://github.com/bochendong/Weather-data-analysis/raw/master/image/wind2.png"
+        width="900" height="500">
+	<p align="center">
+</p>
