@@ -30,4 +30,8 @@ The city we choose are listed below:
 
 ## Data collection：
 Get data from Open Weather Map, http://openweathermap.org/
-
+<p align="center">
+	<img src="https://github.com/bochendong/Weather-data-analysis/raw/master/image/data.png"
+        width="900" height="500">
+	<p align="center">
+</p>
